@@ -50,7 +50,7 @@ profiles:
 interests:
   - Computer Graphics
   - Character Animation
-  - Reinforcement Learning
+  - Deep Learning
 
 # education:
 #   - area: PhD Computer Science (AI Focus)
@@ -168,4 +168,10 @@ interests:
 #       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+My name is Jingyuan Li (李靖远). I am currently a Master’s student in Computer Science at ETH Zürich, specializing in Visual and Interactive Computing, where I work under the supervision of [Prof. Siyu Tang](https://vlg.inf.ethz.ch/team/Prof-Dr-Siyu-Tang.html) and [Prof. Olga Sorkine-Hornung](https://igl.ethz.ch/people/sorkine/).  
+
+My research focuses on deep learning and computer graphics, particularly on physics-based and kinematic character animation, motion generation, and controllable generative models.  
+
+Before joining ETH, I obtained my BSc in Computer Science from Harbin Institute of Technology, Shenzhen.
+
+
