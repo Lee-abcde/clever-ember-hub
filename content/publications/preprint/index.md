@@ -1,43 +1,46 @@
 ---
-title: "An example preprint / working paper"
+title: "MotionPyramid: Controllable Motion Synthesis via Stylized Phase Manifolds"
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
+date: "2025-11-04T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-11-04T00:00:00Z"
 
 # Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "ACM Transactions on Graphics"
+publication_short: "TOG"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: >
+  We introduce stylized phase manifolds—a compact, interpretable latent representation that disentangles motion content (e.g., "jumping", "walking"), the temporal structure (e.g., motion cycle frequency, gait timing), and style (i.e., how the motion is performed). Learned in an unsupervised manner and inherently low-dimensional, the manifold offers intuitive and flexible editing. Building on this representation, we develop a diffusion-based motion generator that enables fine-grained control over semantic, temporal, and stylistic aspects of motion. To connect high-level intent with low-level motion, we treat the stylized manifold as an intermediate representation—a structured bridge between natural language and motion. By first mapping text into this manifold, our two-stage pipeline improves control over text-based motion generation, while producing high-quality, diverse motion outputs.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: >
+  Stylized phase manifolds disentangle motion content, temporal structure, and style, enabling controllable and high-quality text-driven motion generation through a diffusion-based generator.
 
 tags:
-- Large Language Models
+- Motion Generation
+- Phase Manifold
+- Diffusion Models
+- Animation
 
 featured: true
 
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
+    doi: "10.1145/nnnnnnn.nnnnnnn"
 
 links:
 - type: preprint
   provider: arxiv
-  id: 1512.04133v1
+  id: 0000.00000v1
 - type: code
-  url: https://github.com/HugoBlox/hugo-blox-builder
+  url: "https://github.com/your-repo/motionpyramid"
 - type: slides
-  url: https://www.slideshare.net/
+  url: "#"
 - type: dataset
   url: "#"
 - type: poster
@@ -45,37 +48,21 @@ links:
 - type: source
   url: "#"
 - type: video
-  url: https://youtube.com
+  url: "#"
 - type: custom
-  label: Custom Link
-  url: http://example.org
+  label: "ACM Reference"
+  url: "https://doi.org/10.1145/nnnnnnn.nnnnnnn"
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
 # Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
 projects:
 - internal-project
 
 # Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
-
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
