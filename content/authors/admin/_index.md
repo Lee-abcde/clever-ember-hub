@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: Jingyuan Li
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Jingyuan
+last_name: Li
 
 # Pronouns (optional)
 pronouns: he/him
